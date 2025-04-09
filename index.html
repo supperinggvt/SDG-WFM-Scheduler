@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Service Desk WFM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Service Desk WFM</h2>
+    <ul>
+      <li>Dashboard</li>
+      <p>Your next shift starts in <span id="shiftCountdown">Loading...</span></p>
+      <li>My Schedule</li>
+      <li>Team Calendar</li>
+      <li>Time Off</li>
+      <li>Reports</li>
+    </ul>
+  </div>
+<p>Current Time: <span id="currentTime"></span></p>
+  <div class="main">
+    <div class="header">
+      <h1>Welcome back, John</h1>
+      <p>Today is Monday, June 10, 2023</p>
+    </div>
+
+    <div class="dashboard">
+      <div class="card">
+        <h3>Today's Schedule</h3>
+        <p>Morning Shift: 9:00 AM - 1:00 PM</p>
+        <p>Lunch Break: 1:00 PM - 2:00 PM</p>
+        <p>Afternoon Shift: 2:00 PM - 6:00 PM</p>
+      </div>
+      <div class="card">
+        <h3>This Week</h3>
+        <p>Mon - Fri: 9-6</p>
+        <p>Sat, Sun: OFF</p>
+        <p>Total Hours: 40h / 40h</p>
+      </div>
+      <div class="card">
+        <h3>Upcoming Time Off</h3>
+        <p>Vacation: Jul 15 - Jul 22 (Approved)</p>
+        <p>Personal Day: Jun 24 (Pending)</p>
+        <p>Remaining PTO: 12 days</p>
+      </div>
+    </div>
+
+    <div class="calendar">
+      <h3>Team Calendar</h3>
+      <p>Team A (6) on Mon/Tue/Wed | Team B (4) on Sat/Sun</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
